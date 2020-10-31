@@ -1,15 +1,20 @@
 #!/usr/bin/env python
 import sys
-from dataclasses import dataclass
 
 
-@dataclass
 class Point:
-    x: int
-    y: int
+    def __init__(self, *points: int):
+        self.points = points
 
     def distance(self, other):
-        return ((self.x - other.x)**2 + (self.y - other.y)**2)**0.5
+        diff = ((a-b)**2 for a, b in zip(self.points, other.points))
+        return sum(diff)**0.5
+
+    def __repr__(self):
+        return f'Point{self.points}'
+
+    def __str__(self):
+        return f'Point{self.points}'
 
 
 def read(arg):
