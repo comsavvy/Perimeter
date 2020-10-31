@@ -68,3 +68,10 @@ Total perimeter: 55.97
 Maximum length: 15.13
 Average length: 13.99
 
+---------- testing_many_dimension.txt **********
+Points: [(32, 28, 6), (82, 21, 4), (10, 12, 1), (32, 28, 23), (14, 3, 8), (92, 1, 3)]
+Sides: [50.52722038663912, 72.62231062146122, 34.9857113690718, 34.26368339802363, 78.18567643756751, 65.86349520030045]
+Total perimeter: 336.45
+Maximum length: 78.19
+Average length: 56.07
+
