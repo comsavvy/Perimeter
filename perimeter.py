@@ -31,7 +31,8 @@ def total_perim(data):
     a = [Point(*d) for d in data]
     total = 0
     i = 0
-    while i < len(a)-1:
+    to_index = len(a)-1
+    while i < to_index:
         perimeter = a[i].distance(a[i+1])
         side.append(perimeter)
         total += perimeter
