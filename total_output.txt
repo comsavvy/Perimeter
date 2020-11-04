@@ -3,6 +3,7 @@ Points: [(-1, 3), (-1, -1), (4, -1), (1, 3)]
 Sides: [4.0, 5.0, 5.0, 2.0]
 Total perimeter: 16.0
 Maximum length: 5.0
+Minimum length: 2.0
 Average length: 4.0
 
 ---------- example2.txt **********
@@ -10,6 +11,7 @@ Points: [(-3, 4), (-3, -4), (3, -4)]
 Sides: [8.0, 6.0, 10.0]
 Total perimeter: 24.0
 Maximum length: 10.0
+Minimum length: 6.0
 Average length: 8.0
 
 ---------- example3.txt **********
@@ -17,6 +19,7 @@ Points: [(-2, 3), (-2, -2), (2, -2), (6, 7), (1, 7)]
 Sides: [5.0, 4.0, 9.848857801796104, 5.0, 5.0]
 Total perimeter: 28.85
 Maximum length: 9.85
+Minimum length: 4.0
 Average length: 5.77
 
 ---------- example4.txt **********
@@ -24,6 +27,7 @@ Points: [(-2, 1), (0, -3), (3, -4), (5, 0), (3, 4), (0, 4)]
 Sides: [4.47213595499958, 3.1622776601683795, 4.47213595499958, 4.47213595499958, 3.0, 3.605551275463989]
 Total perimeter: 23.18
 Maximum length: 4.47
+Minimum length: 3.0
 Average length: 3.86
 
 ---------- datatest1.txt **********
@@ -31,6 +35,7 @@ Points: [(-3, 3), (-4, -3), (4, -2), (6, 5)]
 Sides: [6.082762530298219, 8.06225774829855, 7.280109889280518, 9.219544457292887]
 Total perimeter: 30.64
 Maximum length: 9.22
+Minimum length: 6.08
 Average length: 7.66
 
 ---------- datatest2.txt **********
@@ -38,6 +43,7 @@ Points: [(-3, 4), (-3, -5), (3, -5), (3, 4)]
 Sides: [9.0, 6.0, 9.0, 6.0]
 Total perimeter: 30.0
 Maximum length: 9.0
+Minimum length: 6.0
 Average length: 7.5
 
 ---------- datatest3.txt **********
@@ -45,6 +51,7 @@ Points: [(-4, -3), (4, -2), (12, 2), (6, 5), (-3, 3), (-8, 1)]
 Sides: [8.06225774829855, 8.94427190999916, 6.708203932499369, 9.219544457292887, 5.385164807134504, 5.656854249492381]
 Total perimeter: 43.98
 Maximum length: 9.22
+Minimum length: 5.39
 Average length: 7.33
 
 ---------- datatest4.txt **********
@@ -52,6 +59,7 @@ Points: [(-3, 9), (-8, 7), (-12, 4), (-6, -2), (-4, -6), (2, -8), (6, -5), (10, 
 Sides: [5.385164807134504, 5.0, 8.48528137423857, 4.47213595499958, 6.324555320336759, 5.0, 4.47213595499958, 8.246211251235321, 5.0, 7.0710678118654755]
 Total perimeter: 59.46
 Maximum length: 8.49
+Minimum length: 4.47
 Average length: 5.95
 
 ---------- datatest5.txt **********
@@ -59,6 +67,7 @@ Points: [(-15, 8), (-8, -6), (7, -2), (4, 10)]
 Sides: [15.652475842498529, 15.524174696260024, 12.36931687685298, 19.1049731745428]
 Total perimeter: 62.65
 Maximum length: 19.1
+Minimum length: 12.37
 Average length: 15.66
 
 ---------- datatest6.txt **********
@@ -66,6 +75,7 @@ Points: [(-13, 8), (-8, -6), (5, -2), (2, 10)]
 Sides: [14.866068747318506, 13.601470508735444, 12.36931687685298, 15.132745950421556]
 Total perimeter: 55.97
 Maximum length: 15.13
+Minimum length: 12.37
 Average length: 13.99
 
 ---------- testing_many_dimension.txt **********
@@ -73,5 +83,6 @@ Points: [(32, 28, 6), (82, 21, 4), (10, 12, 1), (32, 28, 23), (14, 3, 8), (92, 1
 Sides: [50.52722038663912, 72.62231062146122, 34.9857113690718, 34.26368339802363, 78.18567643756751, 65.86349520030045]
 Total perimeter: 336.45
 Maximum length: 78.19
+Minimum length: 34.26
 Average length: 56.07
 

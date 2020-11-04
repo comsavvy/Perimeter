@@ -48,6 +48,7 @@ def outcome(data):
     print(f'Sides: {val[1]}'
           f'\nTotal perimeter: {val[0]}'
           f'\nMaximum length: {round(max(val[1]), 2)}'
+		  f'\nMinimum length: {round(min(val[1]), 2)}'
           f'\nAverage length: {round(val[0]/len(val[1]), 2)}')
 
 
