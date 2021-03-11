@@ -55,10 +55,8 @@ def outcome(data):
 if __name__ == '__main__':
     argument = sys.argv[1:]
     dt = (read(arg) for arg in argument)
-    mover = 0  # This will allow the display of file name
-    for i in dt:
+    for mover, i in enumerate(dt):
         print("-"*10, argument[mover], "*"*10)  # Displaying the name of the file
         print('Points:', i)
         outcome(i)
         print(end='\n')
-        mover += 1
